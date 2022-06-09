@@ -1,1 +1,79 @@
-<!-- FOR LATER. -->
+<!--UPDATE LATER.-->
+<html>
+<head> ... </head>
+<body> 
+<section class="zhongli-header">
+        <nav>
+            <a href="test.html"><img src="images/de7phzy-4edfc15c-921d-4c49-9406-01b726ed1c99.png"></a>
+			</nav>
+			<div class="text-box">
+            <h1>LIYUE</h1>
+            <p>A bountiful harbor that lies in the east of Teyvat.
+            </p>
+            <img src="https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Emblem_Liyue.png/revision/latest?cb=20201116194654" class="zhongli.emblem">
+        </div>
+    </section>
+	<hr>
+<div class="videoWrapper">
+  <!-- Copy & Pasted from YouTube -->
+  <iframe width="1280" height="1350" src="https://www.youtube.com/embed/pFrKZxStL_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<hr style="height:0;border-width:0;color:black;background-color:black">
+</hr>
+<style>
+.text-box{
+  width: 90%;
+  color:#fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box h1{
+  font-size: 62px;
+}
+
+.text-box h1:after{
+content:'';
+width: 0%;
+height: 2px;
+background: #fff;
+display: block;
+margin: auto;
+transition: 1.5s;
+}
+.text-box h1:hover::after{
+	width: 100%;
+}
+
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 25px;
+  color: white;
+}
+
+.zhongli-header{
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://c.tenor.com/jMUJFL2kVMsAAAAd/liyue.gif);
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
