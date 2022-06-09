@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'SDK_JP_Web';
-  src: url('fonts/ja-jp.ttf') format('truetype');
-}
+    font-family: 'SDK_JP_Web';
+    src: url('fonts/ja-jp.ttf') format('truetype');
+  }
 
 body {
 margin: 0;
 padding: 0;
-  font-family: SDK_JP_Web;
-}
-
+    font-family: SDK_JP_Web;
+  }
+  
 .inazuma-header{
 width: 100%;
 height: 100vh;
@@ -62,17 +62,17 @@ width: 100%;
 }
 
 .text-box{
-width: 90%;
-color:#fff;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
+  width: 90%;
+  color:#fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .text-box h1{
-font-size: 62px;
+  font-size: 62px;
 }
 
 .text-box h1:after{
@@ -85,13 +85,13 @@ margin: auto;
 transition: 1.5s;
 }
 .text-box h1:hover::after{
-width: 100%;
+	width: 100%;
 }
 
 .text-box p{
-margin: 10px 0 40px;
-font-size: 25px;
-color: white;
+  margin: 10px 0 40px;
+  font-size: 25px;
+  color: white;
 }
 
 h5{
@@ -101,40 +101,40 @@ text-align:center;
 }
 
 p{
-color: #fff;
+	color: #fff;
 }
 
 .ticker{
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-  height: 50px;
-  margin: 0 auto;
-position: fixed;
- bottom: 20px;
- left: 0;
-  right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+	position: fixed;
+	 bottom: 20px;
+	 left: 0;
+    right: 0;
 }
 
 .info{
-  width: 15%;
-  text-align: end;
-  background: #fff;
-  position: relative;
+    width: 15%;
+    text-align: end;
+    background: #fff;
+    position: relative;
 }
 
 .title:after{
-  position: absolute;
-  content: "";
-  right: -15%;
-  border-left: 5px solid #ddbd50;
+    position: absolute;
+    content: "";
+    right: -15%;
+    border-left: 5px solid #ddbd50;
 }
 
 .title h5{
-  font-size: 15px;
-  margin: auto 0;
+    font-size: 15px;
+    margin: auto 0;
 }
 
 .info marquee{
-  font-size: 5px ;
+    font-size: 5px ;
 }
